@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatGPT: 신뢰할 수 있는 검사의학 상담자인가?</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reset.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/theme/black.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="reveal">
+        <div class="slides">
+            <!-- Title Slide -->
+            <section data-background-gradient="linear-gradient(to bottom right, #1a237e, #0d47a1)">
+                <h1 class="animate-title">ChatGPT: 신뢰할 수 있는 검사의학 상담자인가?</h1>
+                <p class="subtitle animate-subtitle">의료 AI의 새로운 지평</p>
+                <div class="title-footer animate-footer">
+                    <p>검사의학과 인공지능의 만남</p>
+                </div>
+            </section>
+
+            <!-- Overview -->
+            <section>
+                <h2>연구 개요</h2>
+                <div class="highlight-box fragment fade-up">
+                    <p>Girton 등의 획기적인 연구</p>
+                    <ul>
+                        <li class="fragment fade-right">49개의 실제 환자 질문 분석</li>
+                        <li class="fragment fade-right">GPT-3.5와 GPT-4.0 평가</li>
+                        <li class="fragment fade-right">의료 전문가와의 직접 비교</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Key Findings -->
+            <section data-auto-animate>
+                <section>
+                    <h2>주요 연구 결과</h2>
+                    <div class="chart-container animate-chart">
+                        <canvas id="preferenceChart"></canvas>
+                    </div>
+                </section>
+                <section data-auto-animate>
+                    <h3>GPT vs 의료 전문가 응답 품질</h3>
+                    <div class="chart-container animate-chart">
+                        <canvas id="qualityChart"></canvas>
+                    </div>
+                </section>
+            </section>
+
+            <!-- Educational Context -->
+            <section data-background-color="#0d47a1">
+                <section>
+                    <h2>의학 교육의 현실</h2>
+                    <div class="stats-container">
+                        <div class="stat-item fragment fade-up">
+                            <div class="stat-number">98</div>
+                            <div class="stat-label">조사된 미국 의과대학</div>
+                        </div>
+                        <div class="stat-item fragment fade-up">
+                            <div class="stat-number">50%</div>
+                            <div class="stat-label">교육과정 지침 인지</div>
+                        </div>
+                        <div class="stat-item fragment fade-up">
+                            <div class="stat-number">8</div>
+                            <div class="stat-label">임상검사의학 필수 지정</div>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <h3>교육 격차의 영향</h3>
+                    <div class="impact-grid">
+                        <div class="impact-item fragment fade-right">
+                            <h4>현재 상황</h4>
+                            <p>체계적인 교육 부족</p>
+                        </div>
+                        <div class="impact-item fragment fade-left">
+                            <h4>결과</h4>
+                            <p>ChatGPT의 우수한 성과</p>
+                        </div>
+                    </div>
+                </section>
+            </section>
+
+            <!-- Platform Reliability -->
+            <section>
+                <h2>플랫폼 신뢰성</h2>
+                <div class="platform-comparison">
+                    <div class="platform fragment fade-right">
+                        <div class="platform-icon">🎯</div>
+                        <h3>Reddit</h3>
+                        <p>엄격한 의사 신원 확인 시스템</p>
+                    </div>
+                    <div class="platform fragment fade-left">
+                        <div class="platform-icon">❓</div>
+                        <h3>Quora</h3>
+                        <p>자체 인증으로 신뢰성 검증 어려움</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Technical Aspects -->
+            <section data-background-gradient="linear-gradient(45deg, #1a237e, #0d47a1)">
+                <section>
+                    <h2>기술적 특성</h2>
+                    <div class="tech-grid">
+                        <div class="tech-item fragment fade-up">
+                            <h3>GPT-4.0 성능</h3>
+                            <p>GPT-3.5 대비 58.7% 선호도</p>
+                        </div>
+                        <div class="tech-item fragment fade-up">
+                            <h3>품질 관리</h3>
+                            <p>일반 검사실 QC보다 복잡</p>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <h3>알려진 한계점</h3>
+                    <ul class="limitations-list">
+                        <li class="fragment fade-up">답변의 비일관성</li>
+                        <li class="fragment fade-up">환각 현상 발생</li>
+                        <li class="fragment fade-up">설명 과정의 불투명성</li>
+                        <li class="fragment fade-up">업데이트 후 성능 변동</li>
+                    </ul>
+                </section>
+            </section>
+
+            <!-- Success Case -->
+            <section data-background-color="#0d47a1">
+                <h2>주목할 만한 성공 사례</h2>
+                <div class="case-study fragment fade-up">
+                    <div class="case-icon">🏆</div>
+                    <h3>Tethered Cord Syndrome 진단</h3>
+                    <p>17명의 의사가 놓친 진단을<br>ChatGPT가 정확히 식별</p>
+                </div>
+            </section>
+
+            <!-- Practical Implementation -->
+            <section>
+                <h2>실제 적용 방안</h2>
+                <div class="implementation-flow">
+                    <div class="step fragment fade-up">의료 전문가 감독</div>
+                    <div class="arrow">↓</div>
+                    <div class="step fragment fade-up">ChatGPT 활용</div>
+                    <div class="arrow">↓</div>
+                    <div class="step fragment fade-up">전문의 리뷰</div>
+                    <div class="arrow">↓</div>
+                    <div class="step fragment fade-up">최종 진단/상담</div>
+                </div>
+                <div class="benefits fragment fade-up">
+                    <p>✓ 검사의학 전문 지식 보완</p>
+                    <p>✓ 24/7 상시 지원 가능</p>
+                </div>
+            </section>
+
+            <!-- Future Prospects -->
+            <section data-background-gradient="linear-gradient(to bottom, #1a237e, #0d47a1)">
+                <h2>미래 전망</h2>
+                <div class="future-grid">
+                    <div class="grid-item fragment zoom-in">
+                        <div class="icon">🎯</div>
+                        진단 정확도 향상
+                    </div>
+                    <div class="grid-item fragment zoom-in">
+                        <div class="icon">💡</div>
+                        검사실 상담 개선
+                    </div>
+                    <div class="grid-item fragment zoom-in">
+                        <div class="icon">📚</div>
+                        의학 교육 지원
+                    </div>
+                    <div class="grid-item fragment zoom-in">
+                        <div class="icon">🏥</div>
+                        포괄적 환자 케어
+                    </div>
+                </div>
+            </section>
+
+            <!-- Conclusion -->
+            <section data-background-color="#0d47a1">
+                <h2>결론</h2>
+                <blockquote class="highlight-quote fragment fade-up">
+                    "ChatGPT에게 도움을 받는 전문의에게 진단받고 싶습니다"
+                </blockquote>
+                <div class="conclusion-points fragment fade-up">
+                    <p>✓ AI와 전문가의 시너지</p>
+                    <p>✓ 지식 격차 극복</p>
+                    <p>✓ 의료 서비스 품질 향상</p>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>

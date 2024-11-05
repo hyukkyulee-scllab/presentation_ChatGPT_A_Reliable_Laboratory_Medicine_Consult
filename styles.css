@@ -1,0 +1,310 @@
+/* General Styles */
+.reveal {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.reveal h1 {
+    font-size: 2.5em;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.reveal h2 {
+    color: #4a90e2;
+    margin-bottom: 0.3em;
+    font-size: 1.8em;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+}
+
+.reveal .subtitle {
+    color: #888;
+    font-size: 1.2em;
+}
+
+/* Title Animations */
+.animate-title {
+    animation: slideInDown 1s ease-out;
+}
+
+.animate-subtitle {
+    animation: fadeIn 1s ease-out 0.5s both;
+}
+
+.animate-footer {
+    animation: fadeIn 1s ease-out 1s both;
+}
+
+@keyframes slideInDown {
+    from {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Chart Container */
+.chart-container {
+    position: relative;
+    width: 30%;
+    margin:  auto;
+    height: 400px;
+}
+
+.animate-chart {
+    animation: scaleIn 0.8s ease-out;
+}
+
+@keyframes scaleIn {
+    from {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+/* Stats Container */
+.stats-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2em;
+}
+
+.stat-item {
+    text-align: center;
+    padding: 1em;
+    background: rgba(255,255,255,0.1);
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.stat-item:hover {
+    transform: translateY(-5px);
+}
+
+.stat-number {
+    font-size: 2.5em;
+    color: #4a90e2;
+    font-weight: bold;
+}
+
+.stat-label {
+    color: #fff;
+    margin-top: 0.5em;
+}
+
+/* Platform Comparison */
+.platform-comparison {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2em;
+}
+
+.platform {
+    text-align: center;
+    padding: 1.5em;
+    background: rgba(74, 144, 226, 0.1);
+    border-radius: 15px;
+    width: 40%;
+}
+
+.platform-icon {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+/* Tech Grid */
+.tech-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5em;
+    margin: 2em auto;
+    width: 90%;
+}
+
+.tech-item {
+    background: rgba(255,255,255,0.1);
+    padding: 1.5em;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Case Study */
+.case-study {
+    background: rgba(255,255,255,0.1);
+    padding: 2em;
+    border-radius: 15px;
+    text-align: center;
+    margin: 2em auto;
+    max-width: 80%;
+}
+
+.case-icon {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+/* Implementation Flow */
+.implementation-flow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.3em;
+    padding-top: 2em;
+}
+
+.step {
+    background: #4a90e2;
+    padding: 0.8em 1.5em;
+    border-radius: 8px;
+    color: white;
+    width: 40%;
+    text-align: center;
+    font-size: 1em;
+    margin: 0;
+    transition: transform 0.3s ease;
+}
+
+.step:hover {
+    transform: scale(1.05);
+}
+
+.arrow {
+    color: #4a90e2;
+    font-size: 1.2em;
+    line-height: 0.5;
+    margin: -0.2em 0;
+}
+
+/* Future Grid */
+.future-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5em;
+    margin: 2em auto;
+    width: 80%;
+}
+
+.grid-item {
+    background: rgba(74, 144, 226, 0.1);
+    padding: 1.5em;
+    border-radius: 12px;
+    text-align: center;
+    border: 1px solid #4a90e2;
+    transition: transform 0.3s ease;
+}
+
+.grid-item:hover {
+    transform: translateY(-5px);
+}
+
+.grid-item .icon {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+/* Highlight Quote */
+.highlight-quote {
+    background: rgba(74, 144, 226, 0.1);
+    border-left: 4px solid #4a90e2;
+    padding: 1.5em;
+    margin: 1.5em 0;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+/* Conclusion Points */
+.conclusion-points {
+    margin-top: 2em;
+    text-align: center;
+}
+
+.conclusion-points p {
+    margin: 0.8em 0;
+    color: #fff;
+}
+
+/* Highlight Box */
+.highlight-box {
+    background: rgba(74, 144, 226, 0.1);
+    padding: 1.5em;
+    border-radius: 10px;
+    border: 1px solid #4a90e2;
+    margin: 1em 0;
+}
+
+/* Impact Grid */
+.impact-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5em;
+    margin: 2em auto;
+}
+
+.impact-item {
+    background: rgba(255,255,255,0.1);
+    padding: 1.5em;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Benefits */
+.benefits {
+    margin-top: 2em;
+    text-align: center;
+}
+
+.benefits p {
+    margin: 0.5em 0;
+    color: #4a90e2;
+}
+
+/* Limitations List */
+.limitations-list {
+    list-style: none;
+    padding: 0;
+}
+
+.limitations-list li {
+    margin: 1em 0;
+    padding: 0.8em;
+    background: rgba(255,255,255,0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* Responsive Design */
+@media (max-height: 600px) {
+    .implementation-flow {
+        padding-top: 1em;
+    }
+    
+    .step {
+        padding: 0.4em 0.8em;
+        font-size: 0.8em;
+    }
+    
+    .arrow {
+        margin: -0.3em 0;
+        font-size: 0.9em;
+    }
+    
+    .reveal h2 {
+        font-size: 1.4em;
+        margin-bottom: 0.2em;
+    }
+    
+    .stat-number {
+        font-size: 2em;
+    }
+}
